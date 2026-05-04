@@ -8,8 +8,8 @@ public class WriteExample {
 	public static void main(String[] args) {
 		
 		try {
-			FileWriter writer = new FileWriter("test1.txt");
-			writer.write("Hello this is my first write in java file handling");
+			FileWriter writer = new FileWriter("testX2.txt");
+			writer.write("Nice time learning File handling");
 			writer.close();
 			
 		}catch(IOException e) {
